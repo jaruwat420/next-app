@@ -44,6 +44,22 @@ const product = [{
     price_promotion: 200,
     src: "https://res.cloudinary.com/freshketimage001/image/upload/c_fit,w_800,h_800,q_auto,f_auto/nnlwphtvrvpy7egihiau"
 }
+,
+{
+    id: 7,
+    name: " เอนไดว์ ฟริเซ่ 500 กรัม/แพ็ค",
+    price: 500,
+    price_promotion: 500,
+    src: "https://res.cloudinary.com/freshketimage001/image/upload/c_fit,w_800,h_800,q_auto,f_auto/nnlwphtvrvpy7egihiau"
+}
+,
+{
+    id: 8,
+    name: " เอนไดว์ ฟริเซ่ 500 กรัม/แพ็ค",
+    price: 500,
+    price_promotion: 500,
+    src: "https://res.cloudinary.com/freshketimage001/image/upload/c_fit,w_800,h_800,q_auto,f_auto/nnlwphtvrvpy7egihiau"
+}
 
 
 ];

@@ -7,12 +7,16 @@ import Product from "./components/product/Product";
 
 
 export default function Home() {
-  const products = [{ id: 1, name: 'Product 1', price: 100, discountPrice: 80, imageUrl: 'https://res.cloudinary.com/freshketimage001/image/upload/c_fit,w_800,h_800,q_auto,f_auto/nnlwphtvrvpy7egihiau' }]
   return (
     <main>
-      <Carousel />      
-      <ShortCategoryList />
-      <Product />
+      {/* <Carousel /> */}
+      {/* <ShortCategoryList /> */}
+      {/* <Product /> */}
+      <div className="container mx-auto my-5 ">
+        <div class="grid grid-cols-3 gap-4 text-center">
+          
+        </div>
+      </div>
     </main>
   );
 }

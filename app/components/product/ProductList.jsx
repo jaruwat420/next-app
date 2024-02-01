@@ -1,18 +1,16 @@
 export default function ProductList(props) {
-    const increase = ((e) => {
-        console.log(e);
-    })
     return (
         <div>
             <div className="grid-items">
-                <div className="card bg-base-100 w-60 h-30 shadow-xl">
-                    <figure>
+                <div className="card bg-base-100 w-48 h-29 shadow-xl">
+                    <div className="flex justify-center">
                         <img
+                            className="rounded-xl"
                             src={props.src}
                             alt="Shoes" />
-                    </figure>
-                    <div className="card-body">
-                        <p className="">{props.name}</p>
+                    </div>
+                    <div className="card-body py-0 w-30">
+                        <blockquote>{props.name}</blockquote>
                         <div className="text-center">
                             <p className="text-red-600"><span>฿</span>{props.price_promotion}</p>
                         </div>

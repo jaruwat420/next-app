@@ -7,11 +7,11 @@ function Carousel() {
                     <div className="items p-2 ">
                         <div className="carousel w-full rounded-md">
                             <div id="item1" className="carousel-item w-full">
-                                <img src="https://res.cloudinary.com/freshketimage001/image/upload/c_fill,w_1900,h_400,q_auto,f_auto/oms/prod/content_management/banner/2024/1/SUPER%20BRAND%20(15-28%20JAN)_DESKTOP_TH"
+                                <img src="/images/OG-FARM.png"
                                     className="w-full" />
                             </div>
                             <div id="item2" className="carousel-item w-full">
-                                <img src="https://res.cloudinary.com/freshketimage001/image/upload/c_fill,w_1900,h_400,q_auto,f_auto/oms/prod/content_management/banner/2024/1/desktop_fresh_Jan_TH"
+                                <img src="./images/slide.jpeg"
                                     className="w-full" />
                             </div>
                             <div id="item3" className="carousel-item w-full">

@@ -24,6 +24,21 @@ const categoryList = [{
     id: 7,
     img: "https://res.cloudinary.com/freshketimage001/image/upload/f_auto/v1691420198/oms/shared/category/300%20x%20300/DAIRY_DRINK_TOTAL.png",
     name: "เนย นม",
+},
+{
+    id: 8,
+    img: "https://res.cloudinary.com/freshketimage001/image/upload/f_auto/v1691420198/oms/shared/category/300%20x%20300/DAIRY_DRINK_TOTAL.png",
+    name: "เนย นม",
+},
+{
+    id: 9,
+    img: "https://res.cloudinary.com/freshketimage001/image/upload/f_auto/v1691420198/oms/shared/category/300%20x%20300/DAIRY_DRINK_TOTAL.png",
+    name: "เนย นม",
+},
+{
+    id: 10,
+    img: "https://res.cloudinary.com/freshketimage001/image/upload/f_auto/v1691420198/oms/shared/category/300%20x%20300/DAIRY_DRINK_TOTAL.png",
+    name: "เนย นม",
 }
 ]
 export default categoryList;

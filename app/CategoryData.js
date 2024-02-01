@@ -1,5 +1,3 @@
-import Category from "./components/navbar/Category";
-
 const CategoryData = [{
     id: 1,
     item: "ผัก",

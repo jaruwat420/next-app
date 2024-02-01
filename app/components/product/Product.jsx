@@ -5,11 +5,9 @@ import products from "@/app/products";
 function Product() {
     return (
         <div>
-            <div className="container mx-auto bg-red-200 pt-10 p-5 rounded-xl">
-                <div className="container">
-                    <div className="item p-5">
-                        <h2 className="text-2xl font-extrabold dark:text-dark"> 🔥 Hot Deal!</h2>
-                    </div>
+            <div className="container mx-auto bg-red-200 pt-10 rounded-xl">
+                <div className="flex my-2">
+                    <h2 className="text-2xl font-extrabold dark:text-dark"> 🔥 Hot Deal!</h2>
                 </div>
                 <div className="flex flex-wrap gap-3 justify-center">
                     {products.map((items => (
@@ -21,8 +19,7 @@ function Product() {
                             price={items.price}
                         />
                     )))}
-
-                </div>                
+                </div>
             </div>
         </div>
     )

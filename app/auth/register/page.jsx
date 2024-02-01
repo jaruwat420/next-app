@@ -1,8 +1,10 @@
-import LoginForm from "@/app/components/register/LoginForm"
+'use client';
+import RegisterForm from "@/app/components/register/RegisterForm"
 export default function Register() {
+
     return (
         <>
-            <LoginForm/>
+            <RegisterForm   />
         </>
     )
 }
