@@ -1,11 +1,10 @@
 'use client';
 import { useState } from "react";
 import TodoItems from "./TodoItems";
-
+import { Button } from "@material-tailwind/react";
 export default function Card() {
     const [inputText, setInputText] = useState();
     const [items, setItems] = useState([]);
-
 
     const handleChange = (e) => {
         const newValue = e.target.value;
@@ -29,6 +28,8 @@ export default function Card() {
                         </div>
                         <div className="">
                             <button onClick={addItem} className="btn btn-accent">ADD</button>
+                        </div>
+                        <div className="flex w-max gap-4">
                         </div>
                     </details>
                 </div>

@@ -23,9 +23,10 @@ function FormComponent() {
         setItem((prevItems) => {
             return [...prevItems, inputText];
         });
+
         setInputText({
-            nameItem: '',
-            amountItem: ''
+            nameItem: "",
+            amountItem: ""
         });
     }
 
